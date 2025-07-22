@@ -1,0 +1,74 @@
+{
+  "build": "hf547dac_4",
+  "build_number": 4,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [
+    "llvm 17.0.6",
+    "clang 17.0.6",
+    "llvm-tools 17.0.6",
+    "llvm-openmp 17.0.6"
+  ],
+  "depends": [],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/libcxx-17.0.6-hf547dac_4",
+  "files": [
+    "lib/libc++.1.0.dylib",
+    "lib/libc++.1.dylib",
+    "lib/libc++.a",
+    "lib/libc++.dylib",
+    "lib/libc++experimental.a"
+  ],
+  "fn": "libcxx-17.0.6-hf547dac_4.conda",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/libcxx-17.0.6-hf547dac_4",
+    "type": 1
+  },
+  "md5": "9f8b90f30742eab3e6800f46fdd89936",
+  "name": "libcxx",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/libcxx-17.0.6-hf547dac_4.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libc++.1.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "b35c2a57101268296dc30c9f4529bbdb1246d4723f50d5901464f059a86e77f9",
+        "sha256_in_prefix": "b35c2a57101268296dc30c9f4529bbdb1246d4723f50d5901464f059a86e77f9",
+        "size_in_bytes": 1048216
+      },
+      {
+        "_path": "lib/libc++.1.dylib",
+        "path_type": "softlink",
+        "sha256": "b35c2a57101268296dc30c9f4529bbdb1246d4723f50d5901464f059a86e77f9",
+        "size_in_bytes": 1048216
+      },
+      {
+        "_path": "lib/libc++.a",
+        "path_type": "hardlink",
+        "sha256": "964de0d76b472f02eea9c00fe4c0a8cdbe30fba59ec73cb4c7fde48cff50d41e",
+        "sha256_in_prefix": "964de0d76b472f02eea9c00fe4c0a8cdbe30fba59ec73cb4c7fde48cff50d41e",
+        "size_in_bytes": 1543736
+      },
+      {
+        "_path": "lib/libc++.dylib",
+        "path_type": "softlink",
+        "sha256": "b35c2a57101268296dc30c9f4529bbdb1246d4723f50d5901464f059a86e77f9",
+        "size_in_bytes": 1048216
+      },
+      {
+        "_path": "lib/libc++experimental.a",
+        "path_type": "hardlink",
+        "sha256": "21f429e5b2a1e1d6dec2afb809269f600bf254ac8350cc32d9cbc2ee2795eb3e",
+        "sha256_in_prefix": "21f429e5b2a1e1d6dec2afb809269f600bf254ac8350cc32d9cbc2ee2795eb3e",
+        "size_in_bytes": 7536
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4ab9098607e97e1ff1a687cd88312d7764fb015018d04d07b14f3c79c52be58f",
+  "size": 497642,
+  "subdir": "osx-64",
+  "timestamp": 1750860742000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libcxx-17.0.6-hf547dac_4.conda",
+  "version": "17.0.6"
+}

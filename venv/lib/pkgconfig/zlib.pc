@@ -1,0 +1,13 @@
+prefix=/Users/almeida/Documents/INVOICEEXTRACTOR/venv
+exec_prefix=/Users/almeida/Documents/INVOICEEXTRACTOR/venv
+libdir=/Users/almeida/Documents/INVOICEEXTRACTOR/venv/lib
+sharedlibdir=/Users/almeida/Documents/INVOICEEXTRACTOR/venv/lib
+includedir=/Users/almeida/Documents/INVOICEEXTRACTOR/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
